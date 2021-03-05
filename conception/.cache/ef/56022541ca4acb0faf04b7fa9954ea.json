@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"id":"assets/images/imageTest.jpg","dependencies":[{"name":"/var/www/html/Specialisation/WP/Lepaindemie/project-studio-paindemie/conception/package.json","includedInParent":true,"mtime":1613663641294}],"generated":{"js":"module.exports = \"/9a0c2de48e517466f9aa384d77e45ca6.jpg\";"},"sourceMaps":null,"error":null,"hash":"be0f7ee66934de6b10495ac98c62c62c","cacheData":{"env":{}}}
+=======
+{"id":"assets/images/imageTest.jpg","dependencies":[{"name":"/var/www/html/Specialisation/WP/Lepaindemie/project-studio-paindemie/conception/package.json","includedInParent":true,"mtime":1613584498883}],"generated":{"js":"module.exports = \"/9a0c2de48e517466f9aa384d77e45ca6.jpg\";"},"sourceMaps":null,"error":null,"hash":"be0f7ee66934de6b10495ac98c62c62c","cacheData":{"env":{}}}
+>>>>>>> recoveryD

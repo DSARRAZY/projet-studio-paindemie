@@ -1,0 +1,51 @@
+/* image login WordPress */
+body.login { 
+	background-image: url('table_login.jpg'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.login h1 a { 
+	background-image: url('logo60.png'); 
+}
+
+body.login div#login form#loginform {
+    background-color:#A11321 !important;
+    border-radius: 10px 100px / 120px;
+}
+
+body.login div#login p#nav a {
+    color:#EADB7C;
+    font-size: 1.8em;
+    font-family:'Carter One', cursive;
+}
+
+body.login div#login p#backtoblog a {
+    color :#EADB7C;
+    font-size: 1.8em;
+   font-family: 'Carter One', cursive;
+}
+
+.wp-core-ui .button-primary {
+    background: #EADB7C;
+    border-color: #8CD166 !important;
+    color: #4B4747;
+    text-decoration: none;
+
+}
+
+.wp-core-ui .button-secondary {
+    color: #A11321!important;
+    border-color:#A11321 !important;
+    background: #f3f5f6;
+    vertical-align: top;
+}
+
+body.login div#login form#loginform p label {
+    color:#fff;
+}
+
+.user-pass-wrap {
+    color:#fff;
+}

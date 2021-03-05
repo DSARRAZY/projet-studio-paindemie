@@ -1,0 +1,51 @@
+footer {
+    background-color: $red;
+    color: white;
+    padding: 1em;
+   display: flex;
+   // flex-direction: column;
+}
+
+    .footer__links{
+
+        display:flex;
+    
+        justify-content: center;
+        flex-direction: row;
+        padding: 10px;
+
+    }
+    
+  .footerLink1{
+    padding: 10px;
+
+  }
+  .footerLink2{
+    padding: 10px;
+
+  }
+  .footerLink3{
+    padding: 10px;
+
+  }
+
+.containerFooter{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    //width: 25%;
+}
+
+.footer__contact
+{
+
+    display: flex;
+}
+
+.footer__contact{
+    display:flex;
+    flex-direction: row;
+     width: 80%;
+
+}

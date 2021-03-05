@@ -1,0 +1,117 @@
+
+//design buttom
+
+.imagesStudio {
+    margin-top: 16px;
+}
+
+.btn-primary {
+    background-color: $yellow !important;
+    border-color: $yellow !important;
+     margin: 30px;
+     justify-content: center;
+   
+}
+.btn {
+    color:$grey!important;
+    border-color: $yellow !important;
+ font-family: $font-main!important;;
+ font-weight: 500!important;;
+}
+
+.StudioButton{
+
+    margin-top: 30px;
+    
+}
+
+.customButton{
+
+    width: 205px !important;
+}
+
+//Home text
+
+p.studioText{
+font-family: $font-main;
+}
+
+.facebook{
+
+  justify-content:center;
+  margin-right: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 0
+}
+
+#actuality{
+
+//background-image:urlurl("../images/niek-doup-OuuMTjwEP-o-unsplash.jpg");
+    padding:60px;
+  }
+
+.Mybut{
+  text-align: center;
+
+}
+
+  #studio{
+
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-image:url("../images/niek-doup-OuuMTjwEP-o-unsplash.jpg");
+  }
+  //.fb-timeline, .fb-events iframe[style] {width: 100% !important;}
+
+  .fb-timeline .fb-timeline  iframe[style], .fb-timeline span {
+    width: 100% !important;
+ }
+
+ .fb-events.fb-events  iframe[style], .fb-events span {
+  width: 100% !important;
+}
+
+.fa.fa-angle-left {
+  background-image: none;
+  color:white;
+  font-size: 2em;
+}
+
+.fa.fa-angle-right {
+  background-image: none;
+  color: white;
+  font-size: 2em;
+}
+
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.carousel-caption {
+  font-family: $font-title;
+}
+
+.bottom{
+
+  justify-content: center;
+}
+
+@media all and (max-width: 992px) {
+
+  .facebook {
+   text-align: center;
+  }
+  .bottom{
+
+    padding: 0px;
+  }
+
+}
+@media all and (max-width: 576px) {
+
+  #actuality{
+        padding:30px;
+      }
+}

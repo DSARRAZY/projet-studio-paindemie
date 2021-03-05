@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <!--<meta charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pain de mie</title>
+    <!--<link rel="preconnect"  href="https://fonts.gstatic.com">-->
+    </head>
+        <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                    <img src="./assets/images/logo100px.png" alt="logo du site">
+                    <div class="legende">
+                        <h1>Page contact</h1>
+                    </div>
+            </div>
+        </div>
+        </nav>
+
+    <section class="contact-image">
+        </section>
+
+    <section id="contact">
+      <div class="section-content">
+        <h1 class="section-header">Prenez<span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Contact avec nous</span></h1>
+        <h3>Pour toutes indormations générales, réservation du studio, équipements disponibles; laissez nous un message</h3>
+      </div>
+      <div class="contact-section">
+        <div class="container">
+
+      <form>
+        <div class="row"> 
+          <div class="col-sm-12 col-md-6 col-lg-6 form-line">
+            <div class="form-group">
+            <label for="exampleInputUsername">Votre Prénom</label>
+            <input type="text" class="form-control" id="" placeholder=" Entrez votre prénom">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputUsername">Votre nom</label>
+            <input type="text" class="form-control" id="" placeholder=" Entrez votre nom">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputEmail">Votre adresse mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Entrez votre mail">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputMessage">L'objet de votre message</label>         
+            <select class="form-control col-md-12" id="inputGroupSelect01">
+              <option selected>Choisir...</option>
+              <option value="1">Informations générales</option>
+              <option value="2">Equipements disponibles</option>
+              <option value="3">Réservation du studio</option>
+            </select>
+            </div>
+            <div class="form-group">
+              <label for ="description"> Messages</label>
+               <textarea  class="form-control" id="description" placeholder="Entrez votre message"></textarea>
+            </div>
+          <button class="btn btn-primary" type="submit"><span class="fa fa-send" ></span> Envoyer</button>
+          </div> 
+          <div class="map col-sm-12 col-md-6 col-lg-6">
+            <div style="overflow:hidden;width: 400px;position: relative;"><iframe width="400" height="200" src="https://maps.google.com/maps?width=400&amp;height=200&amp;hl=en&amp;q=8%20rue%20Auguste%20Daix+(Le%20Pain%20de%20Mie)&amp;ie=UTF8&amp;t=&amp;z=8&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/">embedgooglemaps EN</a> & <a href="https://newyorkhoponhopoffbus.nl">deal krijgen</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+          </div>
+      </div>
+      </form>
+  
+     </div>  
+    </div>
+  </section>
+
+
+        <!--<div class="col-lg-3 col-md-3 col-sm-12 footer__contact">
+            <div class="col-lg-3 col-md-3 col-sm-12 footer__contact">
+        <div class="footer__mail">
+           <div class="footer__mail-icon"><i class="fas fa-envelope"></i>
+           </div>
+           <div class="footer__mail-text">
+               <p>pdmstud@gmail.com</p>
+        </div>
+       </div>
+       
+
+       <div class="footer__phone">
+           <div class="footer__phone-icon"><i class="fas fa-mobile-alt"></i>
+           </div>
+           <div class="footer__phone-text">
+               <p>+33 6 08 27 10 57</p>
+           </div>
+       </div>
+   </div>
+   </div>
+
+       <div class="col-lg-4 col-md-12 col-sm-12  footer__address">
+       <div class="footer__item"></div>
+       <p>Où nous sommes :</p>
+           <div class="footer__item-icon"><i class="fas fa-map-marked-alt"></i>
+           </div>
+           <div class="footer__item-text">
+              
+               <p>Le Pain de Mie, 8 rue Auguste Daix
+                   <br>94260 Fresnes</p>
+           </div>
+       </div>
+       
+   
+   <div class="col-lg-4 col-md-12 col-sm-12  footer__social social">
+       <div class="social__links">
+           <p>Suivez nous :</p>
+           <div>
+               <a href="" class="social__links__item"><i class="fab fa-facebook"></i></a>
+           </div>
+           
+          <div>
+               <a href="" class="social__links__item"><i class="fab fa-instagram"></i></a>
+           </div> 
+       
+   </div>
+   </div>
+  </div>
+ </div>
+
+<div class="footer__links">
+
+  <div class="footerLink1"> <a href="#">Plan du site</a></div> 
+    <div class="footerLink2"> <a href="#">Mentions légales</a></div>
+  <div class="footerLink3"> <a href="#">Copyright</a></div>
+ 
+</div> 
+
+</footer>
+
+
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script src="./assets/js/script.js"></script>
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+ <script src="./assets/js/index.js"></script>
+</html>

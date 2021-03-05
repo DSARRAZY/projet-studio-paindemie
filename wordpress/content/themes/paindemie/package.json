@@ -1,0 +1,28 @@
+{
+  "name": "paindemie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "facebook-sdk": "^0.3.3",
+    "glyphicons-halflings": "^1.9.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "mediaquery": "0.0.4",
+    "nano": "^9.0.3",
+    "popper.js": "^1.16.1",
+    "reset": "^0.1.0",
+    "reset-css": "^5.0.1",
+    "sass": "^1.32.7"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

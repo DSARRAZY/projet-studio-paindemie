@@ -1,0 +1,20 @@
+.references {
+    font-family: $font-main;
+    background-color:$black;
+    color:$white;
+}
+
+.media-image {
+
+    
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/tablette.jpg");
+    background-position: center;
+    background-size:cover;
+}
+
+.equipment-display {
+
+    margin: auto;
+}

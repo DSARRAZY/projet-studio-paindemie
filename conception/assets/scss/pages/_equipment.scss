@@ -1,0 +1,25 @@
+.mainEquipment {
+    font-family: $font-main;
+    background-color:$black ;
+    color:$white;
+}
+
+.equipment-image {
+
+    
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/tablette.jpg");
+    background-position: center;
+    background-size:cover;
+}
+
+.introduction { text-align: center;
+
+}
+.equipment-display {margin: auto;
+text-align: center;
+color:$black}
+
+.equipment { margin-bottom: 15px;
+}

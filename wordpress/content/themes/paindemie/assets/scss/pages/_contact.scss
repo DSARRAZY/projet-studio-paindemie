@@ -1,0 +1,143 @@
+/*Contact sectiom*/
+
+.contact-image {
+  width: 100%;
+  height: 12vh;
+  //background-image: url("../images/contactPhoto.jpg");
+  background-position: center;
+  background-size:cover;
+}
+
+.contact_form {
+  margin: 0 auto;
+  margin-top: 20px !important;
+}
+
+.image-contact {
+  width: 100%;
+  background-image: url("../images/image-defond-webcontact.jpg");
+  background-position: center;
+  background-size:cover;
+}
+
+.section-header {
+  margin-top: 10px;
+  font-family: $font-title;
+  text-align: center;
+  color: $yellow;
+}
+
+.section-subtitle {
+  color: $white;
+  font-size: medium;
+  text-align: center;
+}
+
+.contact_title {
+  color:$white;
+}
+
+/*Contact Form 7 Styles*/
+
+.wpcf7 {
+background: rgba(0,0,0,0.5); /* fallback for old browsers */
+color : rgb(255, 255, 255); 
+}
+
+.wpcf7-form {
+  text-align : center;
+}
+
+.lastnameField {
+  border-radius: 5px;
+  font-size: small;
+}
+
+.firstnameField {
+  border-radius: 5px;
+  font-size: small;
+}
+
+.fieldmail {
+  width: 302px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: small;
+}
+
+.menuForm {
+  width: 302px;
+  height: 25px;
+  border-radius: 5px;
+  font-size:small;
+}
+
+.messageField {
+  border-radius: 5px;
+  font-size: small;
+}
+
+.wpcf7-submit {
+  background-color:$yellow;
+  border-radius: 5px;
+  border-color: $yellow;
+  width: 100px;
+  margin-left: 16px;
+  box-sizing: border-box !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+  display: block;
+  margin: 0 auto;
+  }
+
+//DIV RIGHT
+
+.right_contact {
+  color:$white;
+  background: rgba(0,0,0,0.5);
+  margin: auto;
+
+.tel, .adress {
+  display: flex;
+  border-bottom: solid 1px;
+  border-color: $white;
+}
+
+.adress_tel {
+  .fas
+  {
+  margin-right: 10px;
+  }
+}
+
+.fab {
+  margin-right: 20px;
+  text-align:center;
+  font-size: 20px;
+  color:$white !important;
+ } 
+
+.adress, .social {
+  margin-top: 10px;
+}
+
+.social {
+  text-align: center;
+  color:$yellow;
+  border-bottom: solid 1px;
+  border-color: $white;
+}
+
+a:hover {
+  color:$yellow !important;
+}
+
+.carte img:not([src$=".png"]) {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+}

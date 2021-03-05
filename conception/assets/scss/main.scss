@@ -1,0 +1,31 @@
+// on force le charset en UTF-8
+@charset 'UTF-8';
+
+// on importe nos fichiers "abstraits" (variables, les mixins...)
+@import
+    'abstracts/variables',
+    'abstracts/mixins',
+    'abstracts/fonts';
+    
+
+// on immporte nos fichiers qui définisent le rendu général de nos pages (layout)
+@import
+
+    'layouts/header',
+    'layouts/global',
+    'layouts/footer';
+
+@import
+    'pages/contact',
+    'pages/equipment',
+    'pages/references',
+    'pages/reference',
+    'pages/contact2';
+
+// on importe nos fichiers de composants (modules graphiques réutilisables)
+@import
+    'components/main-nav';
+
+//On importe bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+

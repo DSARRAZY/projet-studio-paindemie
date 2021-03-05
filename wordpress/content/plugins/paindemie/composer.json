@@ -1,0 +1,15 @@
+{
+    "name": "etudiant/paindemie",
+    "authors": [
+        {
+            "name": "stephen-goi",
+            "email": "musicable08@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload":{
+        "psr-4": {
+            "PainDeMie\\": "."}
+    }
+}

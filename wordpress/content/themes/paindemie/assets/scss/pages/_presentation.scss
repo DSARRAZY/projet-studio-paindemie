@@ -1,0 +1,62 @@
+.presentation_daft {
+    background-color:black;
+    font-family:"Sedgwick Ave Display"
+}
+
+.container_daft {
+    margin:0;
+    padding:0;
+}
+
+.section_daft {
+    height:100vh;
+    width:100%;
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+#d1 {
+    background-image:url("http://3.bp.blogspot.com/--u6LYdE4_YI/UvbWEtQ2FfI/AAAAAAAAC6Y/xPCoyfFvqj0/s1600/daft-punk-daft-punk-12804853-1680-1050.jpg");
+    background-size:cover; 
+    padding-top:30px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.title_daft {
+    color:#BEA85C;
+    font-family:"Sedgwick Ave Display";
+    text-align:center;
+    font-size: 45px;
+    padding: 5em;
+}
+
+.team_daft{
+    display:flex;
+    flex-direction:column;
+}
+
+.member_daft{
+    align-self: center;
+}
+
+.daft{
+    color:#BEA85C;
+    font-family:"Sedgwick Ave Display";
+    font-size: 28px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .title_daft {
+        font-size: 30px;
+        padding:5em;
+    }
+
+    .daft {
+        font-size: 20px;
+    }
+  }

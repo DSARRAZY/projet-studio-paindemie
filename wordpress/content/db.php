@@ -1,0 +1,1 @@
+/var/www/html/pain_de_mie/project-studio-paindemie/wordpress/content/plugins/query-monitor/wp-content/db.php

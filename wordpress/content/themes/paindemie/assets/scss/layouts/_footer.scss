@@ -1,0 +1,121 @@
+.contenaireFooter{
+  background-color:$red;
+  color: $white;
+  text-align: center !important;
+  padding: 50px;
+  padding-bottom: 20px;
+
+
+.footerTitles{
+  font-family: $font-title;
+  //font-family: $font-main;
+  //font-weight: 500;
+  font-size: 1.3em;
+  padding: 5px;
+  margin: 10px;
+}
+
+.fas {
+  font-weight: 900;
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.fab, .far {
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 10px;
+  color: white;
+}
+
+.footerInfoSocialFB{
+  text-align: right;
+  padding:10px;
+}
+
+a.socialLinksFb{
+  color: white !important;
+}
+
+.socialLinksFb:hover{
+  color: $yellow !important;
+}
+
+.footerInfoSocialInsta{
+  text-align: left;
+  padding:10px;
+}
+
+.socialLinksInsta:hover{
+  color: $yellow !important;
+}
+
+a.socialLinksInsta{
+  color: white !important;
+}
+
+.footerLink1{
+  text-align: right;
+}
+
+.footerLink3{
+  text-align: left;
+}
+
+.footerLinks{
+margin-top: 40px;
+font-size: 0.9em;
+color: white;
+font-family: $font-main;
+}
+
+a.footerLink{
+  color: white;
+}
+
+.footerLink:hover{
+  color: $yellow !important;
+}
+
+a.contactlogoEmail{
+  color: white !important;
+}
+
+a.contactlogoTel{
+  color: white !important;
+}
+
+.fas:hover{
+  color: $yellow !important;
+}
+
+a.AdressLink{
+  color: white !important;
+}
+
+.AdressLink:hover{
+  color: $yellow !important;
+}
+
+.fab:hover{
+  color: $yellow !important;
+}
+
+@media (max-width: $breakpoint-medium) {
+  .footerInfoSocialInsta{
+    text-align: center;
+    padding:10px;
+  }
+
+  .footerInfoSocialFB{
+    text-align: center;
+    padding:10px;
+  }
+
+}
+
+}
+.Tel:hover{
+  color: $yellow !important;
+}
